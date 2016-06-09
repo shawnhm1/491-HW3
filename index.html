@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Billiards Simulation</title>
+    <!-- Import necessary to connect with database -->
+    <script type="text/javascript" src="http://76.28.150.193:8888/socket.io/socket.io.js"></script>
+
+    <!-- My JavaScript file imports-->
+    <script type="text/javascript" src="./js/assetmanager.js"></script>
+    <script type="text/javascript" src="./js/timer.js"></script>
+    <script type="text/javascript" src="./js/entity.js"></script>
+    <script type="text/javascript" src="./js/ball.js"></script>
+    <script type="text/javascript" src="./js/gameengine.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/network.js"></script>
+</head>
+<body>
+    <canvas id="billiardsTable" width="800" height="400"></canvas>
+    <div>
+        <button id="save-button" onclick="saveGameState()">Save</button>
+        <button id="load-button" onclick="loadGameState()">Load</button>
+    </div>
+</body>
+</html>
