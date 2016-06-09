@@ -4,7 +4,7 @@ var GAME_ENGINE = new GameEngine();
 
 
 ASSET_MANAGER.downloadAll(function () {
-    var canvas = document.getElementById('billiardsTable');
+    var canvas = document.getElementById('Table');
     var ctx = canvas.getContext('2d');
 
     GAME_ENGINE.init(ctx);
